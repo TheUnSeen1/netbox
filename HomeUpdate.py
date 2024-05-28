@@ -10,10 +10,10 @@ from netbox import netbox
 import requests
 import datetime
 
-API_TOKEN = 33fa91b269fc489065e9476d91488d66b856e1c3
+API_TOKEN = "33fa91b269fc489065e9476d91488d66b856e1c3"
 HEADERS = {'Authorization': f'Token {API_TOKEN}', 'Content-Type': 'application/json', 'Accept': 'application/json'}
 NB_URL = "http://192.168.1.165"
-netbox = NetBox(host="192.168.165", port=8000, use_ssl=False, auth_token="INPUT YOUR NETBOX API TOKEN HERE")
+netbox = NetBox(host="192.168.165", port=8000, use_ssl=False, auth_token="33fa91b269fc489065e9476d91488d66b856e1c3")
 
 if __name__ == '__main__':
     # Define the network to scan here
