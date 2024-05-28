@@ -1,8 +1,8 @@
 # Install Python module, uncomment if required
-# pip install pip3
-# pip install ipcalc
-# pip install networkscan
-# pip install python-netbox
+ pip install pip3
+ pip install ipcalc
+ pip install networkscan
+ pip install python-netbox
 
 import ipcalc
 import networkscan
